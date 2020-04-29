@@ -157,6 +157,9 @@ AutoTest.Net/
 
 venv
 .idea
+venv/
+.idea/
+
 
 # DocProject is a documentation generator add-in
 DocProject/buildhelp/
