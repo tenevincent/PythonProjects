@@ -3,13 +3,14 @@
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
     <ProjectGuid>694f7312-d7c5-450a-9ee1-95519cd181fe</ProjectGuid>
-    <ProjectHome>.</ProjectHome>
+    <ProjectHome>
+    </ProjectHome>
     <StartupFile>PythonBooksChapter.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>PythonConsoleApp</Name>
+    <Name>PythonBook_Chapter_7</Name>
     <RootNamespace>PythonConsoleApp</RootNamespace>
     <InterpreterId>Global|PythonCore|3.7-32</InterpreterId>
   </PropertyGroup>

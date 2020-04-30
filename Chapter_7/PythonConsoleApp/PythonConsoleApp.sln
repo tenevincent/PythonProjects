@@ -3,7 +3,9 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio 15
 VisualStudioVersion = 15.0.28307.1082
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PythonConsoleApp", "PythonConsoleApp\PythonConsoleApp.pyproj", "{694F7312-D7C5-450A-9EE1-95519CD181FE}"
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PythonBook_Chapter_7", "PythonConsoleApp\PythonBook_Chapter_7.pyproj", "{694F7312-D7C5-450A-9EE1-95519CD181FE}"
+EndProject
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PythonBook_Chapter_8", "PythonBook_Chapter_8\PythonBook_Chapter_8.pyproj", "{E840B851-9A80-4447-88C0-A2E4E86DA5C4}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -13,6 +15,8 @@ Global
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
 		{694F7312-D7C5-450A-9EE1-95519CD181FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
 		{694F7312-D7C5-450A-9EE1-95519CD181FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E840B851-9A80-4447-88C0-A2E4E86DA5C4}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E840B851-9A80-4447-88C0-A2E4E86DA5C4}.Release|Any CPU.ActiveCfg = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
