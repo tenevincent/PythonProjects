@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 15
+VisualStudioVersion = 15.0.28307.1082
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{888888A0-9F3D-457C-B088-3A5042F75D52}") = "PythonConsoleApp", "PythonConsoleApp\PythonConsoleApp.pyproj", "{694F7312-D7C5-450A-9EE1-95519CD181FE}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{694F7312-D7C5-450A-9EE1-95519CD181FE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{694F7312-D7C5-450A-9EE1-95519CD181FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {6E1DE57D-0F10-4D4B-8AF1-3B6180B3421C}
+	EndGlobalSection
+EndGlobal
