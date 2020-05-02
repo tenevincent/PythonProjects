@@ -1,0 +1,43 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" xmlns="http://schemas.microsoft.com/developer/msbuild/2003" DefaultTargets="Build">
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <SchemaVersion>2.0</SchemaVersion>
+    <ProjectGuid>{6e8839a6-98cb-4d88-9c6a-99a88994977c}</ProjectGuid>
+    <ProjectHome />
+    <StartupFile />
+    <SearchPath />
+    <WorkingDirectory>.</WorkingDirectory>
+    <OutputPath>.</OutputPath>
+    <ProjectTypeGuids>{888888a0-9f3d-457c-b088-3a5042f75d52}</ProjectTypeGuids>
+    <LaunchProvider>Standard Python launcher</LaunchProvider>
+    <InterpreterId>Global|PythonCore|3.7-32</InterpreterId>
+  </PropertyGroup>
+  <PropertyGroup Condition="'$(Configuration)' == 'Debug'" />
+  <PropertyGroup Condition="'$(Configuration)' == 'Release'" />
+  <PropertyGroup>
+    <VisualStudioVersion Condition=" '$(VisualStudioVersion)' == '' ">10.0</VisualStudioVersion>
+  </PropertyGroup>
+  <ItemGroup>
+    <Compile Include="PythonBook_Chapter_8\functions_arbitrary.py" />
+    <Compile Include="PythonBook_Chapter_8\functions_demos.py" />
+    <Compile Include="PythonBook_Chapter_8\PythonBook_Chapter_8.py" />
+    <Compile Include="PythonBook_Chapter_8\static_typing.py" />
+    <Compile Include="PythonConsoleApp\bicycles.py" />
+    <Compile Include="PythonConsoleApp\dictionary_demo.py" />
+    <Compile Include="PythonConsoleApp\hello_world.py" />
+    <Compile Include="PythonConsoleApp\if_anweisungen.py" />
+    <Compile Include="PythonConsoleApp\input_examples.py" />
+    <Compile Include="PythonConsoleApp\PythonBooksChapter.py" />
+    <Compile Include="PythonConsoleApp\some_examples.py" />
+    <Compile Include="PythonConsoleApp\working_with_list.py" />
+  </ItemGroup>
+  <ItemGroup>
+    <Folder Include="PythonBook_Chapter_8" />
+    <Folder Include="PythonConsoleApp" />
+  </ItemGroup>
+  <ItemGroup>
+    <InterpreterReference Include="Global|PythonCore|3.7-32" />
+  </ItemGroup>
+  <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
+</Project>

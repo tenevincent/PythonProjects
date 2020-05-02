@@ -1,0 +1,7 @@
+3.1415926535
+  8979323846
+  2643383279
+Python - public, private and protected Access Modifiers
+Classical object-oriented languages, such as C++ and Java, control the access to class resources by public, private and protected keywords. Private members of a class are denied access from the environment outside the class. They can be handled only from within the class.
+
+Public members (generally methods declared in a class) are accessible from outside the class. The object of the same class is required to invoke a public method. This arrangement of private instance variables and public methods ensures the principle of data encapsulation.
