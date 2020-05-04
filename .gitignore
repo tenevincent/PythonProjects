@@ -160,6 +160,12 @@ venv
 venv/
 .idea/
 
+# directories to be removed...  
+venv
+venv/
+.idea
+.idea/
+
 
 # DocProject is a documentation generator add-in
 DocProject/buildhelp/

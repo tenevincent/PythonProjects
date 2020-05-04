@@ -2,25 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-<<<<<<< HEAD
-    <ProjectGuid>e0d7f65f-f294-44f9-ac8b-e6b89c7a6d85</ProjectGuid>
+    <ProjectGuid>78e49e72-c734-4212-84ae-a9564d1df2a7</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Chapter_9.py</StartupFile>
-=======
-    <ProjectGuid>b6cdcf38-640f-4915-94e8-5b98803f3990</ProjectGuid>
-    <ProjectHome>.</ProjectHome>
-    <StartupFile>favorite_languages.py</StartupFile>
->>>>>>> 1afcaf9b60f7516456f74688776579f4badaa836
+    <StartupFile>remember_me.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>Chapter_9</Name>
-    <RootNamespace>Chapter_9</RootNamespace>
-<<<<<<< HEAD
-    <InterpreterId>Global|PythonCore|3.7-32</InterpreterId>
-=======
->>>>>>> 1afcaf9b60f7516456f74688776579f4badaa836
+    <Name>Chapter_10</Name>
+    <RootNamespace>Chapter_10</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -31,31 +21,32 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-<<<<<<< HEAD
-=======
-    <Compile Include="Car.py">
+    <Compile Include="Chapter_10.py" />
+    <Compile Include="division.py">
       <SubType>Code</SubType>
     </Compile>
->>>>>>> 1afcaf9b60f7516456f74688776579f4badaa836
-    <Compile Include="Chapter_9.py" />
-    <Compile Include="dog.py">
+    <Compile Include="file_reader.py">
       <SubType>Code</SubType>
     </Compile>
-<<<<<<< HEAD
-    <Compile Include="person.py">
+    <Compile Include="number_writer.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="pi_string.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="remember_me.py">
+      <SubType>Code</SubType>
+    </Compile>
+    <Compile Include="write_message.py">
       <SubType>Code</SubType>
     </Compile>
   </ItemGroup>
   <ItemGroup>
-    <InterpreterReference Include="Global|PythonCore|3.7-32" />
-=======
-    <Compile Include="electric_car.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="favorite_languages.py">
-      <SubType>Code</SubType>
-    </Compile>
->>>>>>> 1afcaf9b60f7516456f74688776579f4badaa836
+    <Content Include="numbers.json" />
+    <Content Include="numbers.txt" />
+    <Content Include="pi_digits.txt" />
+    <Content Include="pi_million_digits.txt" />
+    <Content Include="programming.txt" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in

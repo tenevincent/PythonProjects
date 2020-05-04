@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 
 def calling_dog_main():
     my_dog = Dog('willie', 6)
@@ -21,6 +22,8 @@ def calling_dog_main():
     print(f"Are objects identical: {identity01 == identity02}")
 
 
+=======
+>>>>>>> 1afcaf9b60f7516456f74688776579f4badaa836
 class Dog(object):
     """A simple attempt to model a dog."""
     
@@ -36,6 +39,7 @@ class Dog(object):
     def roll_over(self):
         """Simulate rolling over in response to a command."""
         print(self.name.title() + " rolled over!")
+<<<<<<< HEAD
  
     def __str__(self):
         """Initialize name and age attributes."""
@@ -47,3 +51,6 @@ class Dog(object):
 
 
 
+=======
+        
+>>>>>>> 1afcaf9b60f7516456f74688776579f4badaa836

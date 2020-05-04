@@ -2,25 +2,15 @@
   <PropertyGroup>
     <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
     <SchemaVersion>2.0</SchemaVersion>
-<<<<<<< HEAD
-    <ProjectGuid>e0d7f65f-f294-44f9-ac8b-e6b89c7a6d85</ProjectGuid>
+    <ProjectGuid>4229d240-f6ea-448a-9114-03bcde60f211</ProjectGuid>
     <ProjectHome>.</ProjectHome>
-    <StartupFile>Chapter_9.py</StartupFile>
-=======
-    <ProjectGuid>b6cdcf38-640f-4915-94e8-5b98803f3990</ProjectGuid>
-    <ProjectHome>.</ProjectHome>
-    <StartupFile>favorite_languages.py</StartupFile>
->>>>>>> 1afcaf9b60f7516456f74688776579f4badaa836
+    <StartupFile>Chapter_12.py</StartupFile>
     <SearchPath>
     </SearchPath>
     <WorkingDirectory>.</WorkingDirectory>
     <OutputPath>.</OutputPath>
-    <Name>Chapter_9</Name>
-    <RootNamespace>Chapter_9</RootNamespace>
-<<<<<<< HEAD
-    <InterpreterId>Global|PythonCore|3.7-32</InterpreterId>
-=======
->>>>>>> 1afcaf9b60f7516456f74688776579f4badaa836
+    <Name>Chapter_12</Name>
+    <RootNamespace>Chapter_12</RootNamespace>
   </PropertyGroup>
   <PropertyGroup Condition=" '$(Configuration)' == 'Debug' ">
     <DebugSymbols>true</DebugSymbols>
@@ -31,31 +21,7 @@
     <EnableUnmanagedDebugging>false</EnableUnmanagedDebugging>
   </PropertyGroup>
   <ItemGroup>
-<<<<<<< HEAD
-=======
-    <Compile Include="Car.py">
-      <SubType>Code</SubType>
-    </Compile>
->>>>>>> 1afcaf9b60f7516456f74688776579f4badaa836
-    <Compile Include="Chapter_9.py" />
-    <Compile Include="dog.py">
-      <SubType>Code</SubType>
-    </Compile>
-<<<<<<< HEAD
-    <Compile Include="person.py">
-      <SubType>Code</SubType>
-    </Compile>
-  </ItemGroup>
-  <ItemGroup>
-    <InterpreterReference Include="Global|PythonCore|3.7-32" />
-=======
-    <Compile Include="electric_car.py">
-      <SubType>Code</SubType>
-    </Compile>
-    <Compile Include="favorite_languages.py">
-      <SubType>Code</SubType>
-    </Compile>
->>>>>>> 1afcaf9b60f7516456f74688776579f4badaa836
+    <Compile Include="Chapter_12.py" />
   </ItemGroup>
   <Import Project="$(MSBuildExtensionsPath32)\Microsoft\VisualStudio\v$(VisualStudioVersion)\Python Tools\Microsoft.PythonTools.targets" />
   <!-- Uncomment the CoreCompile target to enable the Build command in
