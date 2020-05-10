@@ -14,3 +14,12 @@ axes[2].set_title('no grid')
 fig.tight_layout()
 plt.show()
 
+x = 10
+y = 3
+z = 9
+
+if(x > y) or (y > z and x != 0):
+   print("the condition fullfilled")
+else:
+    print("Conditions do not fullfill!")
+
