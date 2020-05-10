@@ -1,3 +1,27 @@
+<<<<<<< HEAD
+
+import dog as dg
+
+
+dg.calling_dog_main()
+
+dog = dg.Dog("Medor",21)
+# dog._age = 1
+
+print(dog)
+
+print(dog)
+
+
+
+
+from person import person
+
+p1=person("daa")
+p1.name="Steve"
+
+del p1.name
+=======
 from Car import * 
 from electric_car import ElectricCar
 from dog import Dog
@@ -40,3 +64,4 @@ print("\nMy dog's name is " + your_dog.name.title() + ".")
 print("My dog is " + str(your_dog.age) + " years old.")
 your_dog.sit()
 
+>>>>>>> 1afcaf9b60f7516456f74688776579f4badaa836
