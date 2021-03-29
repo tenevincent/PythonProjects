@@ -1,4 +1,4 @@
-from PyQt5.QtWidgets import QApplication,QWidget, QVBoxLayout, QPushButton
+from PyQt5.QtWidgets import QApplication,QWidget, QHBoxLayout, QPushButton
 import sys
 from PyQt5.QtGui import QIcon
 
@@ -15,7 +15,7 @@ class Window(QWidget):
 
 
         #vboxlayout object
-        vbox = QVBoxLayout()
+        vbox = QHBoxLayout()
 
         #creating QPushButton
         btn1 = QPushButton("Click One")
